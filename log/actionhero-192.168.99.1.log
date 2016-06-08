@@ -1,0 +1,16 @@
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-08T19:51:34.894Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-08T19:51:34.943Z"}
+{"level":"info","message":"actionhero member 192.168.99.1 has joined the cluster","timestamp":"2016-06-08T19:51:34.953Z"}
+{"level":"notice","message":"pid: 3857","timestamp":"2016-06-08T19:51:35.072Z"}
+{"level":"notice","message":"server ID: 192.168.99.1","timestamp":"2016-06-08T19:51:35.073Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-08T19:51:35.082Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-08T19:51:35.091Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-08T19:51:35.524Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-08T19:51:35.524Z"}
+{"to":"127.0.0.1","action":"showDocumentation","params":"{\"action\":\"showDocumentation\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-08T19:51:52.090Z"}
+{"to":"127.0.0.1","action":"status","params":"{\"action\":\"status\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-08T19:51:52.094Z"}
+{"to":"127.0.0.1","level":"info","message":"[server: websocket] new connection","timestamp":"2016-06-08T19:52:27.444Z"}
+{"to":"127.0.0.1","action":"createChatRoom","params":"{\"name\":\"defaultRoom\",\"action\":\"createChatRoom\",\"apiVersion\":1}","duration":8,"level":"info","message":"[ action @ websocket ]","timestamp":"2016-06-08T19:52:27.466Z"}
+{"to":"127.0.0.1","level":"info","message":"[server: websocket] connection closed","timestamp":"2016-06-08T19:53:30.943Z"}
+{"to":"127.0.0.1","action":"showDocumentation","params":"{\"action\":\"showDocumentation\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-08T19:53:31.316Z"}
+{"to":"127.0.0.1","action":"status","params":"{\"action\":\"status\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-08T19:53:31.318Z"}
